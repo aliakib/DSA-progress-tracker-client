@@ -9,8 +9,6 @@ const apiClient: AxiosInstance = axios.create({
     },
 });
 
-/* ----------------------------- Request Interceptor ----------------------------- */
-
 apiClient.interceptors.request.use(
     (config) => {
         const token = localStorage.getItem('token');

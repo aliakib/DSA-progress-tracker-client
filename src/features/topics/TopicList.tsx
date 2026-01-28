@@ -44,16 +44,6 @@ const TopicList = () => {
                             key={topic._id}
                             className="bg-white rounded-lg shadow overflow-hidden"
                         >
-                            {/* Topic Header */}
-                            {/* <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 px-4 py-3 border-b">
-                                <h2 className="text-base sm:text-lg font-semibold">
-                                    {topic.title}
-                                </h2>
-
-                                <span className="text-xs sm:text-sm text-gray-600">
-                                    {percentage}% completed
-                                </span>
-                            </div> */}
                             <div className="flex flex-col gap-2 px-4 py-3 border-b">
                                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
                                     <h2 className="text-base sm:text-lg font-semibold">

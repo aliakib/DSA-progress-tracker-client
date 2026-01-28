@@ -27,10 +27,6 @@ const Header = () => {
                 </h1>
 
                 <div className="flex items-center gap-3 sm:gap-4">
-                    {/* <span className="hidden sm:block text-sm text-gray-600">
-                        {user.name}
-                    </span> */}
-
                     <nav className="flex gap-4 items-center">
                         <Link to="/" className="text-sm">
                             Home
